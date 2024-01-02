@@ -1,0 +1,18 @@
+spring:
+  kafka:
+    bootstrap-servers: localhost:9092
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: u581488241_medicine
+    url: jdbc:mysql://31.220.110.101:3306/u581488241_medicine
+    password: 1v!xy?KiCP
+    hikari:
+      maximum-pool-size: 10
+      connection-timeout: 10000
+
+
+jwt:
+  algorithm:
+    key: SpringJwtComplex
+  issuer: ecommerce
+  expiredInSeconds: 259_200
